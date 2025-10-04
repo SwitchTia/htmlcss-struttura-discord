@@ -1,16 +1,76 @@
+/* ****************************************
+*CONTROL
+**************************************** 
+*/ 
+
 /* body {
     background-color: aquamarine;
 }  */
+/* 
 
+
+****************************************
+*RESET
+**************************************** 
+*/
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-header{
-    height: 60px;
-    background-color: white;
-    background-size: 250px;
-    margin-bottom: 50px;
+/* 
+****************************************
+*UTILITIES
+**************************************** 
+*/
+
+.bg-header{
+    background-color: lightblue;
 }
+.bg-purple{
+    background-color: rgb(74, 44, 158);
+}
+.bg-pink{
+    background-color: rgb(207, 97, 229);
+}
+.bg-white{
+    background-color: white;
+}
+.bg-grey{
+    background-color: lightgray;
+}
+.bg-blue{
+    background-color: rgb(55, 150, 232);
+}
+.bg-peach{
+    background-color: rgb(243, 172, 183);
+}
+.bg-green{
+    background-color: rgb(54, 125, 54);
+}
+.bg-rose{
+    background-color: rgb(241, 102, 102);
+}
+.bg-teal{
+    background-color: rgb(32, 193, 193);
+}
+
+/* 
+****************************************
+*Layout
+**************************************** 
+*/
+
+/* 
+****************************************
+*HEADER
+**************************************** 
+*/
+
+
+/* 
+****************************************
+*DEBUG
+**************************************** 
+*/
