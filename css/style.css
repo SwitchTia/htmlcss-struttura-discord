@@ -25,6 +25,12 @@
 **************************************** 
 */
 
+.flex{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
 .bg-header{
     background-color: lightblue;
 }
@@ -55,18 +61,36 @@
 .bg-teal{
     background-color: rgb(32, 193, 193);
 }
+.bd-yellow{
+    background-color: rgb(245, 217, 78);
+}
 
 /* 
 ****************************************
 *Layout
 **************************************** 
 */
-
+.container {
+  width: 100%;
+  max-width: 800px;
+  
+}
 /* 
 ****************************************
 *HEADER
 **************************************** 
 */
+.header {
+    height: 100px;
+
+}
+/* 
+****************************************
+*SECTION 1
+**************************************** 
+*/
+
+
 
 
 /* 
