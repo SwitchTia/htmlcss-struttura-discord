@@ -33,21 +33,39 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 200px;
+    /* height: 200px;  */
     /* padding-left: 15%;
     padding-right: 15%;
      */
+}
+
+.height-150{
+    height: 150px;
 }
 
 .height-200{
     height: 200px;
 }
 
+.height-300{
+    height: 300px;
+}
+
+.height-400{
+    height: 400px;
+}
+
 .margin-left{
-    margin-left: 40px;
+    margin-left: 20px;
 }
 .margin-right{
-    margin-right: 40px;
+    margin-right: 20px;
+}
+.margin{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* margin-left: 10%;
+    margin-right: 10%; */
 }
 
 /* 
@@ -66,12 +84,11 @@ TOP NAVIGATION BAR
 
 /* 
 ****************************************
-MAIN AND SECTION 5
+MAIN 
 **************************************** 
 */
-.main-container{
-    width: 70%;
-    height: 150px;
+.card{
+    width: 70%;  
 }
 
 /* 
@@ -94,6 +111,15 @@ COMMON SECTIONS 1,2,3
     align-items: center;
     width: calc((100% / 3 ) *2);
     height: 150px; 
+}
+
+/* 
+****************************************
+SECTION 4
+**************************************** 
+*/
+.card{
+    width: 95%;  
 }
 
 /* 
