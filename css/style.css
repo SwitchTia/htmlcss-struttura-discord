@@ -38,28 +38,14 @@ body{
     padding-right: 100px;
 }
 
-.height-150{
-    height: 150px;
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 70px; 
+    border-style: dashed;
 }
 
-.height-200{
-    height: 200px;
-}
-
-.height-350{
-    height: 350px;
-}
-
-.height-400{
-    height: 400px;
-}
-
-
-
-.margin-top-buttom-10{
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
 /* 
 ****************************************
 TOP NAVIGATION BAR
@@ -176,12 +162,50 @@ SECTION 5
     color: white;
 }
 
-
+/* 
+****************************************
+FOOTER
+**************************************** 
+*/
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 100%; 
+}
+.footer-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%; 
+    height: 60px; 
+}
 /* 
 ****************************************
 UTILITIES
 **************************************** 
 */
+.height-50{
+    height: 20px;
+}
+.height-150{
+    height: 150px;
+}
+.height-200{
+    height: 200px;
+}
+.height-350{
+    height: 350px;
+}
+.height-400{
+    height: 400px;
+}
+
+.margin-top-buttom-10{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 .bg-navbar{
     background-color: lightblue;
@@ -215,6 +239,9 @@ UTILITIES
 }
 .bg-yellow{
     background-color: rgb(245, 217, 78);
+}
+.bg-light-green{
+    background-color: rgb(119, 235, 222);
 }
 .bg-black{
     background-color: rgb(38, 37, 37);
