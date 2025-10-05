@@ -47,8 +47,8 @@ body{
     height: 200px;
 }
 
-.height-300{
-    height: 300px;
+.height-350{
+    height: 350px;
 }
 
 .height-400{
@@ -56,16 +56,14 @@ body{
 }
 
 .margin-left{
-    margin-left: 20px;
+    margin-left: 70px;
 }
 .margin-right{
-    margin-right: 20px;
+    margin-right: 70px;
 }
-.margin{
+.margin-top-buttom{
     margin-top: 20px;
     margin-bottom: 20px;
-    /* margin-left: 10%;
-    margin-right: 10%; */
 }
 
 /* 
@@ -87,7 +85,7 @@ TOP NAVIGATION BAR
 MAIN 
 **************************************** 
 */
-.card{
+.card-menu{
     width: 70%;  
 }
 
@@ -101,7 +99,7 @@ COMMON SECTIONS 1,2,3
     display: flex;
     justify-content: center;
     align-items: center;
-    width: calc(100% / 3 );
+    width: calc((100% / 3 ) *2);
     height: 150px; 
 }
 
@@ -109,7 +107,7 @@ COMMON SECTIONS 1,2,3
     display: flex;
     justify-content: center;
     align-items: center;
-    width: calc((100% / 3 ) *2);
+    width: calc(100% / 3 );
     height: 150px; 
 }
 
@@ -158,8 +156,11 @@ UTILITIES
 .bg-teal{
     background-color: rgb(32, 193, 193);
 }
-.bd-yellow{
+.bg-yellow{
     background-color: rgb(245, 217, 78);
+}
+.bg-black{
+    background-color: rgb(0, 0, 0);
 }
 
 /* 
