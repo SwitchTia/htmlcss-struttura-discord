@@ -40,6 +40,7 @@ TOP NAVIGATION BAR
     justify-content: space-between;
     align-items: center;
     padding: 5px 15px;
+    font: bold;
 }
 
 /* 
@@ -57,6 +58,28 @@ MAIN
     width: 70%;
     height: 150px;
 }
+
+/* 
+****************************************
+COMMON SECTIONS
+**************************************** 
+*/
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    height: 150px; 
+}
+
 /* 
 ****************************************
 UTILITIES
