@@ -29,6 +29,27 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    /* padding-left: 15%;
+    padding-right: 15%;
+     */
+}
+
+.height-200{
+    height: 200px;
+}
+
+.margin-left{
+    margin-left: 40px;
+}
+.margin-right{
+    margin-right: 40px;
+}
+
 /* 
 ****************************************
 TOP NAVIGATION BAR
@@ -45,15 +66,9 @@ TOP NAVIGATION BAR
 
 /* 
 ****************************************
-MAIN
+MAIN AND SECTION 5
 **************************************** 
 */
-.main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
-}
 .main-container{
     width: 70%;
     height: 150px;
@@ -61,19 +76,9 @@ MAIN
 
 /* 
 ****************************************
-COMMON SECTIONS
+COMMON SECTIONS 1,2,3
 **************************************** 
 */
-
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
-    padding-left: 15%;
-    padding-right: 15%;
-    
-}
 
 .card-left{
     display: flex;
@@ -130,25 +135,6 @@ UTILITIES
 .bd-yellow{
     background-color: rgb(245, 217, 78);
 }
-
-/* 
-****************************************
-*Layout
-**************************************** 
-*/
-/* .container {
-  width: 100%;
-  max-width: 800px;
-  
-} */
-/* 
-****************************************
-*SECTION 1
-**************************************** 
-*/
-
-
-
 
 /* 
 ****************************************
