@@ -42,7 +42,21 @@ TOP NAVIGATION BAR
     padding: 5px 15px;
 }
 
-
+/* 
+****************************************
+MAIN
+**************************************** 
+*/
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.main-container{
+    width: 70%;
+    height: 150px;
+}
 /* 
 ****************************************
 UTILITIES
